@@ -1,3 +1,4 @@
+html
 /*body
 {
 	height:100%;
@@ -20,28 +21,21 @@ a:hover {
 a.button:hover {
 	text-decoration: none;
 }*/
-#nav
+ul#nav
 {
 	float:right;
-	margin: 0;
-	font-family: arial;
-	width:24%;
+	margin: 25px;
 }
-#nav li
+ul#nav li
 {
 	list-style: none;
 	display: inline-block;
 	text-align: right;
-	padding: 2em 4% 0 0;
+	padding: 1em 10px 0 0;
 	vertical-align: bottom;
-	margin: -8% -2% 0 0;
+	margin: 5px 5px 0 0;
 	font-size:13px;
-
 }
-#nav li a{
-	text-decoration: none;
-}
-
 .fa
 {
 	font-size:20px;
@@ -57,7 +51,7 @@ a.button:hover {
 div#search
 {
 	position:absolute;
-	margin-top: 0%;
+	margin-top: 50px;
 	width:100%
 }
 div#search img
@@ -81,8 +75,6 @@ ul#buttons
 {
 	text-align: center;
 	padding-left: 0;
-	margin: 0 auto;
-    width: 50%;
 }
 ul#buttons li
 {
@@ -92,13 +84,9 @@ ul#buttons li
     color: #666;
     font-size: 11px;
     font-weight: bold;
-    line-height: 20%;
-    margin: 2%;
-    width:24%;
-
-    /*line-height: 27px;//
-    margin: 17px 6px;*/
-    padding: 2% 4%;
+    line-height: 27px;
+    margin: 17px 6px;
+    padding: 0 12px;
     display: inline-block;
 
 }
@@ -107,47 +95,26 @@ ul#buttons li
 	bottom:0!important;
 	position:absolute;
 	width:100%;
-	background-color:#f2f2f2;
-	border-top:1% solid #e4e4e4;
-	list-style: none;
-	font-size: small;
-	font-family: arial;
-	text-align: right;
-	/*margin: -8% -2% 0 0;*/
+	background-color:##f2f2f2;
+	border-top:1px solid #e4e4e4;
 }
 ul#left
 {
 	float:left;
-	/*padding-left: 20px;*/
-	/*margin-bottom: 0 auto;*/
-	/*list-style: none;*/
-	/*display: inline;*/
-	margin:1%;
+	padding-left: 20px;
+	margin-bottom: 0;
 }
 ul#right
 {
 	float:right;
-	/*padding-right: 10px;*/
-	/*margin-bottom: 0px;*/
+	padding-right: 10px;
+	margin-bottom: 0px;
+}*/
+ul#left li,
+ul#right li{
 	list-style: none;
-	/*display:inline;*/
-	/*margin:1%;*/
-}
-#left li, #right li{
-	list-style: none;
-	display: inline-block;
-	/*line-height: 40px;*/
-	text-decoration: none;
-}
-#bottom_nav #left li a{
-	text-decoration: none;
-	margin: 0 auto;
-}
-#bottom_nav #right li a{
-	text-decoration: none;
-	margin-right:-5%;
-	padding: 0;
-	width:25%;
+	display: inline;
+	line-height: 40px;
 }
 /*ul#right li a:first-child {
 	padding-right:8px;
@@ -163,5 +130,3 @@ ul#right li a {
     letter-spacing: 0.1px;
     font-size: 13px;
 }*/
-@media (max-width:1206px){
-}*
